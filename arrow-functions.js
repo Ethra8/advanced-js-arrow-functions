@@ -9,10 +9,26 @@ function addTwoNumbers(a, b) {
 }
 let sum = addTwoNumbers(3, 5);
 console.log(sum)
-// Arrow Function With Parameters
 
-// Single Line Arrow Function With Parameters
+// Arrow Function With Parameters
+const addTwoNumbers = (a, b) => {
+    return a + b;
+}
+
+// Single Line Arrow Function With Parameters (ES6)
+const addTwoNumbers2 = (a, b) => a + b;
+const addTwoNumbers3 = (a, b) => (a + b); //result can also be wrapped in braquets
 
 // Implicit Returns
+const saySomething = message => console(message); // only 1 parameter 'message' NO NEED for parenthesis
+saySomething('Hello there!!');
+
+const sayHello = () => console('Hello!');
+sayHello()
 
 // Returning Multiple Lines
+const returnMultipleLines = () => (
+    `<p>
+        This is a multiple string!
+    </p>`
+) //MUST be wrapped in () !!!
