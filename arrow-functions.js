@@ -8,10 +8,10 @@ function addTwoNumbers(a, b) {
     return a + b;
 }
 let sum = addTwoNumbers(3, 5);
-console.log(sum)
+console.log(sum);
 
 // Arrow Function With Parameters
-const addTwoNumbers = (a, b) => {
+const addTwoNumbersAgain = (a, b) => {
     return a + b;
 }
 
@@ -20,10 +20,10 @@ const addTwoNumbers2 = (a, b) => a + b;
 const addTwoNumbers3 = (a, b) => (a + b); //result can also be wrapped in braquets
 
 // Implicit Returns
-const saySomething = message => console(message); // only 1 parameter 'message' NO NEED for parenthesis
+const saySomething = message => console.log(message); // only 1 parameter 'message' NO NEED for parenthesis
 saySomething('Hello there!!');
 
-const sayHello = () => console('Hello!');
+const sayHello = () => console.log('Hello!');
 sayHello()
 
 // Returning Multiple Lines
